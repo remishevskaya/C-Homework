@@ -19,7 +19,7 @@ void NumPal(int num)
         number1[i] = num2 % 10;
         num2 = num2 / 10;
     }
-››
+    
     for (int i = 0; i <= number1.Length / 2; i++)
     {
         if (number1[i] == number1[(number1.Length - 1) - i])
